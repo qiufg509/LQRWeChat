@@ -40,7 +40,7 @@ import com.tencent.tencentmap.mapsdk.map.MapView;
 import com.tencent.tencentmap.mapsdk.map.TencentMap;
 import com.zhy.autolayout.AutoLinearLayout;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 /**
  * @创建者 CSDN_LQR
@@ -60,17 +60,17 @@ public class MyLocationActivity extends BaseActivity<IMyLocationAtView, MyLocati
     private Circle accuracy;
     private TencentSearch mTencentSearch;
 
-    @Bind(R.id.btnToolbarSend)
+    @BindView(R.id.btnToolbarSend)
     Button mBtnToolbarSend;
-    @Bind(R.id.rlMap)
+    @BindView(R.id.rlMap)
     RelativeLayout mRlMap;
-    @Bind(R.id.map)
+    @BindView(R.id.map)
     MapView mMap;
-    @Bind(R.id.ibShowLocation)
+    @BindView(R.id.ibShowLocation)
     ImageButton mIbShowLocation;
-    @Bind(R.id.rvPOI)
+    @BindView(R.id.rvPOI)
     LQRRecyclerView mRvPOI;
-    @Bind(R.id.pb)
+    @BindView(R.id.pb)
     ProgressBar mPb;
 
     @Override
